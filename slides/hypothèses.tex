@@ -1,11 +1,72 @@
 \documentclass[lesson_slides]{subfiles}
+\usepackage{natbib}
+\usepackage{graphicx}
+% \graphicspath{ {./images/} }
+\usepackage{enumerate}
+\usepackage{pifont} % for ding
+\usepackage{float} % keeps tables in the exact position they occupy in the code
+\usepackage{gb4e} % leave last
 
 \begin{document}
 %%=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 %   FRAME START   -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-\begin{frame}[c]{Title}
+\begin{frame}[c]{Notre hypothèse de travail}
+
+    \transboxin<1>
+    \transglitter<2>
+    \transwipe<3>
+    \noindent \textbf{\textsc{notre hypothèse de travail}} \pause
+    \begin{itemize}
+        \item[\ding{227}] les langues n'évoluent pas seulement dans la direction de non-mouvement phrasal (IM$=$0); \pause
+        \item[\ding{227}] elles évoluent aussi vers la direction de non-mouvement de tête (IM\textsubscript{lex}$=$0) et non-spellout (Spellout$=$0) 
+    \end{itemize}
   
 \end{frame}
 %   FRAME END   --==-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 %=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+\begin{frame}{Notre hypothèse de travail (ii)}
+
+    \begin{table}[H]
+    \centering
+        \begin{tabular}{|l|r|r|r|}
+        \hline
+         & I & $\longrightarrow$ & VIII \\
+        \hline
+        IM & 1 & $\longrightarrow$ & 0 \\
+        \hline
+        IM\textsubscript{lex} & 1 & $\longrightarrow$ & 0 \\
+        \hline
+        Spellout & 1 & $\longrightarrow$ & 0 \\
+        \hline
+        \end{tabular}
+    \caption{\label{tab:samp}Evolution in the parametrisation of functional projections.}
+    \end{table}
+
+% (through numerous intermediate steps)
+
+\end{frame}
+%%%%%%%%%%%%%%%
+% =-=-=-=-=
+\begin{frame}{Notre hypothèse de travail (ii)}
+
+    \begin{table}[H]
+    \centering
+        \begin{tabular}{|l|r|r|r|}
+        \hline
+         & I & $\longrightarrow$ & VIII \\
+        \hline
+        IM & 1 & $\longrightarrow$ & \hl{0} \\
+        \hline
+        IM\textsubscript{lex} & 1 & $\longrightarrow$ & \hl{0} \\
+        \hline
+        Spellout & 1 & $\longrightarrow$ & \hl{0} \\
+        \hline
+        \end{tabular}
+    \caption{\label{tab:samp}Evolution in the parametrisation of functional projections.}
+    \end{table}
+
+% (through numerous intermediate steps)
+
+\end{frame}
+%%%%%%%%%%%%%%%
 \end{document}
