@@ -539,14 +539,16 @@
       {\usebeamerfont{institute title}\usebeamercolor*[fg]{institute title}\titleInstitute: {\usebeamerfont{institute}\usebeamercolor*[fg]{institute}\insertinstitute}}\\[0.2cm]
       {\usebeamerfont{institute title}\usebeamercolor*[fg]{institute title}\titleMiscI: {\usebeamerfont{institute}\usebeamercolor*[fg]{institute}\descMiscI}}\\[0.2cm]
       {\usebeamerfont{institute title}\usebeamercolor*[fg]{institute title}\titleMiscII: {\usebeamerfont{institute}\usebeamercolor*[fg]{institute}\descMiscII}} \\[0.2cm]
-      {\usebeamerfont{date}\usebeamercolor*[fg]{date}\XeLaTeX ed \ on \insertdate}
+      %{\usebeamerfont{date}\usebeamercolor*[fg]{date}\XeLaTeX ed \ on \insertdate}
     \end{minipage}%
     \begin{minipage}[c]{0.2\paperwidth}
       \vspace{0pt}
-      \includegraphics[width=0.65\linewidth,keepaspectratio]{\inserttitlegraphic}
+      \includegraphics[width=1\linewidth,keepaspectratio]
+      %keepaspectratio
+      {\inserttitlegraphic}
     \end{minipage}%
     \hfill
-    \addtocounter{framenumber}{-1}
+    \addtocounter{framenumber}{-2}
   \end{frame}
 }%
 %  END =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
