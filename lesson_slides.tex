@@ -39,15 +39,15 @@
 %		mode				= dark (default)
 %							= light
 %=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-
 \documentclass[aspectratio=169, sectionpages, codemintedoverleaf, bibref]{beamer}
 % > > > Bibliography File
-\usepackage{natbib}
+\usepackage[backend=biber,citestyle=authoryear]{biblatex}
+%\usepackage{natbib}
+%\bibliographystyle{plainnat}
 \newcommand{\bibfilename}{mhoRef.bib}
 % > > > Choose Theme
 \usetheme[mode=light]{sthlmnord}
 %\usetheme{sthlmnord}
-
 % > > > Generate some Lorem Ipsum placeholder text for the demo.
 \usepackage{lipsum}
 
@@ -156,7 +156,12 @@ urlcolor={nordNine}
 \section{References}
 
 \begin{frame}[allowframebreaks]{References}
-	\printbibliography[title={References}]%
+
+%\bibliography{mhoRef}
+\printbibliography
+
+
+%
 \end{frame}
 
 \end{document}
